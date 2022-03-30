@@ -16,13 +16,15 @@
 	--main-color-light2: #f38888;
 	--main-color-dark2: #d27575;
     --main-color-pink: #F397B7;
+    --main-color-deeppink: #EF1A9E;
+    
 }
 
 
 .header{
 	background-color: var(--main-color-white);
     font-family: 'Amatic SC', cursive;
-    color: deeppink
+    color: #EF1A9E
 }
 
 
@@ -44,8 +46,8 @@
 /* Style the footer */
 .footer {
  	height: 10vh;
-	background-color: pink;
+	background-color: #0d0d0d;
     font-family: 'Reggae One', cursive;
-    color:white
+    color:#485359
 }
 
