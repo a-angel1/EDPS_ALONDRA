@@ -3,8 +3,8 @@
 /* Example Variables */
 :root {
 	/* Fonts */
-    --main-font-primary: 'Amatic SC', cursive;
-    --main-font-secondary: 'Patrick Hand', cursive;
+    --main-font-primary: 'Amatic SC', cursive; 
+    --main-font-secondary: 'Patrick Hand', cursive; 	/* header */
     --main-font-tertiary: 'Sedgwick Ave', cursive;
     
 	/* Colors */
@@ -18,104 +18,34 @@
     --main-color-pink: #F397B7;
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
 
-/* Fonts and Color */
-h1,
-h2,
-h3 {
-	font-family: var(--main-font-primary);
-	color: var(--main-color-pink);
-}
-
-p {
-	font-family: var(--main-font-secondary);
-	color: var(--main-color-black);
-}
-
-.text_highlight {
-	font-family: var(--main-font-tertiary);
-	color: var(--main-color-gray);
-}
-
-/* Section - Landing Page */
-#sec_lan {
-	height: 200vh;
+.header{
 	background-color: var(--main-color-white);
+    font-family: 'Amatic SC', cursive;
+    color: deeppink
 }
 
-#sec_lan_header h1,
-#sec_lan_header span,
-#sec_lan_sec1 h2,
-#sec_lan_sec1 span {
-	display: none;
+
+.header-right {
+  float: right;
+} 
+
+.navbar-nav {
+    font-family: 'Patrick Hand', cursive;
 }
 
-/* unvisited link */
-#sec_lan a:link {
-	color: var(--main-color-pink);
+
+#sec_lan_sec1 {
+	height:75vh;
+	background-color: var(--main-color-white);
+    font-family: 'Amatic SC', cursive;
 }
 
-/* visited link */
-#sec_lan a:visited {
-	color: var(--main-color-light2);
+/* Style the footer */
+.footer {
+ 	height: 10vh;
+	background-color: pink;
+    font-family: 'Reggae One', cursive;
+    color:white
 }
 
-/* mouse over link */
-#sec_lan a:hover {
-	color: var(--main-color-dark2);
-}
-
-/* selected link */
-#sec_lan a:active {
-	color: var(--main-color-dark2);
-}
-
-/* unvisited link */
-#sec_lan a.btn-primary:link {
-	color: var(--main-color-white);
-	background-color: var(--main-color-light2);
-	border-color: var(--main-color-light2);
-	box-shadow: none;
-}
-
-/* visited link */
-#sec_lan a.btn-primary:visited {
-	color: var(--main-color-white);
-	background-color: var(--main-color-light2);
-	border-color: var(--main-color-light2);
-	box-shadow: none;
-}
-
-/* mouse over link */
-#sec_lan a.btn-primary:hover {
-	color: var(--main-color-white);
-	background-color: var(--main-color-dark2);
-	border-color: var(--main-color-dark2);
-	box-shadow: none;
-}
-
-/* selected link */
-#sec_lan a.btn-primary:active {
-	color: var(--main-color-white);
-	background-color: var(--main-color-dark2);
-	border-color: var(--main-color-dark2);
-	box-shadow: none;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
