@@ -26,133 +26,70 @@
 		<!-- Main Stylesheet -->
 		<link rel="stylesheet" href="css/styles.css" />
 
-		<style>
-			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
-			#sec_lan {
-				height: 200vh;
-			}
-		</style>
-
 		<title>EDPS 6560 Spring 2020 - Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
 	</head>
     
 	<body>
-		<!--comments!-->
-		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
-			<div class="row justify-content-around align-items-center">
-				<div class="col-auto">
+            <!-- This is my header -->
+		<div id="sec_lan" class="container-fluid">
+			<div class="header">
 					<h1><strong>Alondra Angel</strong></h1>
 				</div>
-				<div class="col-auto">
+            <div class="header-right">
 					<a href="contact.html"><i class="fas fa-envelope"></i> Contact Me</a>
 				</div>
 			</div>
-			<div class="row justify-content-center align-items-center" style="height: 80vh; background-color: lavenderblush">
-				<div class="col-4">
-					<h2>Instructional Design and Educational Technology Portfolio</h2>
-					<h3>One | Two | Three | Four | Five</h3>
-                    <a href="#sec_lan_sec2">
-						<span>Scroll Down</span><br />
-						<i class="fas fa-chevron-circle-down"></i>
-					</a>
-				</div>
-				
                 
-                <div class="col-5">
-					<img src="img/browser-3614768_1280.png" width="100%" height="auto" alt="Image by janjf93 from Pixabay" />
-					<!--Image by <a href="https://pixabay.com/users/janjf93-3084263/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3614768">janjf93</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3614768">Pixabay</a>-->
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-auto">
-					<a href="#">
-						<span>Scroll Down</span><br />
-						<i class="fas fa-chevron-circle-down"></i>
-					</a>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-			</div>
-		</div>
-        
-        
-		<nav id="sec_nav">
-            <div class="row justify-content-center align-items-center" style="height: 40vh">
-				<div class="col-4">
-            <ul>
-                <li><a href="#sec_abo">About Me</a></li>
-                <li><a href="#sec_exp">Experience</a></li>
-                <li><a href="#sec_edu">Education</a></li>
-                <li><a href="#sec_ski">Skills</a></li>
-				<li><a href="#projects/1.html">Portfolio</a></li>
-                <li><a href="#sec_awa">Awards</a></li>
-            </ul>
             
-            <ul>
-				<li><a class="btn btn-outline-info" href="contact.html" role="button" target="_blank">Contact Me</a></li>
-        
-			</ul>
-		</nav>
-                
-		<div id="sec_abo">
-            
-			<!-- Start About Me Section -->
-			<h1>About Me</h1>
-			<img src="img/bio.jpeg" alt="Alondra Angel" height="300" width="auto" />
-			<p>
-				My name is Alondra Angel and I'm currently a graduate student working towards my master's degree in Instructional Design and Educational Technology from the Department of Education at the University of Utah. Currently working Part-time at a 3D Steel Design Company. 
-                
-                Apart from school and work I love spending time with my family. I love trying new things. In my spare time you can find me baking, watching my favorite TV show:Friends, or create new digital prints.  ​
-			</p>
-		</div>
-		<!-- End About Me Section -->
-        
-		<div id="sec_exp">
-			<!-- Start Experience Section -->
-			<h1>Experience</h1>
-			<p class="par_exp">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.
-			</p>
-		</div>
-		<!-- End Experience Section -->
-        
-        <div id="sec_edu">
-			<!-- Start Education Section -->
-			<h1>Education</h1>
-			<p class="par_edu">
-				Take a look at my Instructional Design Portfolio.
-            <a href="https://alondraangel.weebly.com" target="_blank"> alondraangel.weebly.com</a> 
-		</div>
-		<!-- End Education Section -->
-         
-        <div id="sec_ski">
-			<!-- Start Skills Section -->
-			<h1>Skills</h1>
-			<p class="par_ski">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.
-			</p>
-		</div>
-		<!-- End Skills Section -->
-        
-        <div id="sec_awa">
-			<!-- Start Awards Section -->
-			<h1>Awards</h1>
-			<p class="par_awa">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.
-			</p>
-		</div>
-		<!-- End Awards Section -->
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.jpeg" alt="logo" style="width:50px;">
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="education.html">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="education.html">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="awards.html">Awards</a>
+                  </li>  
+                </ul>
+              </div>  
+            </nav>
 
-
+            <div id="sec_lan_sec1" class="row justify-content-around align-items-center">
+				<div class="col-7"><!-- This is first column in second row -->
+					<h2>Instructional Design & Educational Technology Portfolio</h2>	   
+				</div>
+				 <div class="col-4 d-none d-md-block">
+				</div>
+			</div>
+                
         
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+        
+        <!-- I DONT KNOW WHAT THIS IS!!!
+        jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
