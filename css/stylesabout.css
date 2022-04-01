@@ -27,6 +27,21 @@ html {
     font-size: 20px;
 }
 
+.header{
+	background-color: var(--main-color-white);
+    font-family: 'Amatic SC', cursive;
+    color: #EF1A9E
+}
+
+
+.header-right {
+  float: right;
+} 
+
+.navbar-nav {
+    font-family: 'Patrick Hand', cursive;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
