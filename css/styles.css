@@ -1,6 +1,4 @@
-/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
 
-/* Example Variables */
 :root {
 	/* Fonts */
     --main-font-primary: 'Amatic SC', cursive; 
@@ -21,6 +19,10 @@
 }
 
 
+html {
+    font-size: 20px;
+}
+
 .header{
 	background-color: var(--main-color-white);
     font-family: 'Amatic SC', cursive;
@@ -36,18 +38,22 @@
     font-family: 'Patrick Hand', cursive;
 }
 
-
 #sec_lan_sec1 {
-	height:75vh;
+	height:50vh;
 	background-color: var(--main-color-white);
     font-family: 'Amatic SC', cursive;
 }
 
-/* Style the footer */
 .footer {
  	height: 10vh;
-	background-color: #0d0d0d;
+	background-color: #FCE4EC;
     font-family: 'Reggae One', cursive;
-    color:#485359
+} 
+
+.footer-right {
+    height: 10vh;
+	background-color: #FCE4EC;
+    font-family: 'Reggae One', cursive;
+    position: relative;
 }
 
