@@ -1,4 +1,3 @@
-
 :root {
 	/* Fonts */
     --main-font-primary: 'Amatic SC', cursive; 
@@ -10,11 +9,11 @@
 	--main-color-white: #FFFFFF;
 	--main-color-black: #0d0d0d;
 	--main-color-lightP: #FCE4EC;
-	--main-color-dark: #45735d;
-	--main-color-light2: #f38888;
 	--main-color-dark2: #d27575;
     --main-color-pink: #F397B7;
     --main-color-deeppink: #EF1A9E;
+    --main-color-rubyp: #EF1A69;
+    --main-color-lpink: #E2BDC8;
     
 }
 
@@ -38,22 +37,51 @@ html {
     font-family: 'Patrick Hand', cursive;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    text-align: left;
+}
+
 #sec_lan_sec1 {
 	height:50vh;
 	background-color: var(--main-color-white);
     font-family: 'Amatic SC', cursive;
 }
 
-.footer {
- 	height: 10vh;
-	background-color: #FCE4EC;
-    font-family: 'Reggae One', cursive;
-} 
-
-.footer-right {
-    height: 10vh;
-	background-color: #FCE4EC;
-    font-family: 'Reggae One', cursive;
-    position: relative;
+.image1 {
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+    border: 8px dotted #EF1A69;
+    margin: 6px;
+    background-image:url("../img/bitmoji.png");
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    box-sizing:content-box;
+    float:right;
 }
+
+.flexbox-container{
+    background-color: #E2BDC8;
+    font-size: 50px;
+    display: flex;
+    align-items: baseline;
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+ 
 
