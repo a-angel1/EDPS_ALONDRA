@@ -9,18 +9,12 @@
 	--main-color-white: #FFFFFF;
 	--main-color-black: #0d0d0d;
 	--main-color-lightP: #FCE4EC;
-	--main-color-dark: #45735d;
-	--main-color-light2: #f38888;
 	--main-color-dark2: #d27575;
     --main-color-pink: #F397B7;
     --main-color-deeppink: #EF1A9E;
+    --main-color-rubyp: #EF1A69;
+    --main-color-lpink: #E2BDC8;
     
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box; 
 }
 
 html {
@@ -33,47 +27,59 @@ html {
     color: #EF1A9E
 }
 
+.navbar-nav {
+    font-family: 'Patrick Hand', cursive; 
+}
 
 .header-right {
-  float: right;
+  float:right;
 } 
 
-.navbar-nav {
-    font-family: 'Patrick Hand', cursive;
-}
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 3rem;
     margin-top: 4rem;
-    text-align: center;
+    margin-bottom: 4rem;
+    text-align: left;
 }
 
 h2 {
     color: #EF1A9E;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 200;
-    letter-spacing: 8px;
-    margin-bottom: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
 }
 
 h3{
-    color:#EF1A9E;
+    color:deeppink;
     font-size: 4rem;
     font-weight: 400;
 }
 
-.image{
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+.image {
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    border: 10px double #EF1A69;
+    margin: 5px;
+    background-image:url("../img/bio.jpeg");
+    background-size: 400px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    box-sizing:content-box;
+    float:left;
 }
 
 p{
     font-size: 1rem;
-    color: #0d0d0d;
+    color: black;
     line-height: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
 }
 
 .btn{
@@ -88,3 +94,23 @@ p{
 .btn:hover{
     background: #EF1A9E;
 }
+
+.flexbox-container{
+    background-color: #E2BDC8;
+    font-size: 50px;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+ 
