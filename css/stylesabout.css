@@ -18,7 +18,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .header{
@@ -95,6 +95,7 @@ p{
     background: #EF1A9E;
 }
 
+
 .flexbox-container{
     background-color: #E2BDC8;
     font-size: 50px;
@@ -113,4 +114,8 @@ p{
     flex-grow: 1;
     align-self: flex-end;
 }
+
+
+
+
  
