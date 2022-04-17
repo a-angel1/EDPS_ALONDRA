@@ -3,6 +3,8 @@
     --main-font-primary: 'Amatic SC', cursive; 
     --main-font-secondary: 'Patrick Hand', cursive; 	/* header */
     --main-font-tertiary: 'Sedgwick Ave', cursive;
+    --font-family: 'Big Shoulders Stencil Text', cursive;
+    --font-family: 'Sedgwick Ave', cursive;
     
 	/* Colors */
 	--main-color-gray: #485359;
@@ -64,6 +66,11 @@ html {
     background-position: center;
     box-sizing:content-box;
     float:right;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.image1:hover{
+    -webkit-transform: rotate(360deg) translateZ(0); 
 }
 
 .flexbox-container{
@@ -85,3 +92,28 @@ html {
 }
  
 
+/* Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) {
+    html{
+    font-size:75%}
+    h1{color:#E2BDC8;
+        font-weight: 100;
+    } 
+}
+
+
+/* Medium devices (tablets, 800px and up) */
+@media (min-width: 800px) {
+   html{
+    font-size:100%}
+    h1{color:#EF1A69}
+} 
+
+
+/* Extra large devices (large desktops, 1200px and up) Look at the variations to the H1 font wheen the device displays greater than 1200px, */
+@media (min-width: 1200px) {
+   html{font-size:100%}
+    h1{color:#EF1A9E;
+        font-weight: 300;
+        font-family: "Sedgwick Ave";
+} 
